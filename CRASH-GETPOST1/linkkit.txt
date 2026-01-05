@@ -1,0 +1,13 @@
+https://www.robinwieruch.de/node-express-server-rest-api
+
+https://stackabuse.com/building-a-rest-api-with-node-and-express/
+
+https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
+
+https://www.youtube.com/watch?v=VVGgacjzc2Y
+https://www.youtube.com/watch?v=zPYmM9K8-g8
+
+https://levelup.gitconnected.com/express-js-9e17c6080fed
+
+
+https://www.youtube.com/watch?v=yXEesONd_54&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU&index=7 <<< käytetty

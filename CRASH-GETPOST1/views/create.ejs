@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+<!--Sama kuin nav -->
+<%- include('./partials/head.ejs')%>
+<body>
+
+<h1>Create blah</h1>
+
+<!--Tän nav missä voi voidaan avata muita sivustoja eli ahref about, blog ja jne -->
+<%- include('./partials/nav.ejs')%>
+
+<div class="create-blog content">
+  <form action="lomake" method="POST" id="contact-form">
+    <label for="title">Otsikko</label>
+    <input type="text" id="title" name="title">
+
+    <label for="snippet">Snippet:</label>
+    <input type="text" id="snippet" name="snippet"required/>
+
+    <label for="body">Kirjoitus:</label>
+    <textarea id="body" required name="body"></textarea>
+    <button onlick="submit">Lähetä</button>
+  </form>
+</div>
+
+      <%- include('./partials/footer.ejs')%>
+</body>
+</html>
