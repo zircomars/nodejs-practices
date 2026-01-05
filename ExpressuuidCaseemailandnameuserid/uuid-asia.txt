@@ -1,0 +1,8 @@
+uuid.NIL 	        --  The nil UUID string (all zeros)
+uuid.parse() 	    --  Convert UUID string to array of bytes
+uuid.validate() 	--  Test a string to see if it is a valid UUID
+uuid.v1()         --	Create a version 1 (timestamp) UUID  
+uuid.v3()         --	Create a version 3 (namespace w/ MD5) UUID 
+uuid.v4()	        --  Create a version 4 (random) UUID  
+uuid.v5()	        --  Create a version 5 (namespace w/ SHA-1) UUID 
+uuid.stringify() 	--  Convert array of bytes to UUID string
