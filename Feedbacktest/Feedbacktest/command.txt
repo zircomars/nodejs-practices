@@ -1,0 +1,17 @@
+1) avaa package json ja install jotakin nmp pakettej
+nmp init -y
+npm i express nodemailer
+npm i -D nodemon
+
+2) avaa package.json muuta sieltä scripts "test" --> "dev" : "nodemon" & lisää yms::
+after ::
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+
+2.1)
+käynnistää softan
+npm run dev
+
+-avaa localhost:5050 tai mikä portti on määritetty
