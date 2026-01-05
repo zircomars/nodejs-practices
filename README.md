@@ -1,2 +1,2 @@
 # nodejs-practices
-nodejs harjoituksia
+nodejs harjoituksia ja aikaisempia harjoitusksia
