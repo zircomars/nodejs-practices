@@ -1,0 +1,8 @@
+https://fullstackopen.com/osa2
+https://dev.to/lennythedev/quick-rest-api-with-node-and-express-in-5-minutes-336j
+
+https://www.robinwieruch.de/node-express-server-rest-api
+
+https://www.digitalocean.com/community/tutorials/nodejs-express-routing
+
+

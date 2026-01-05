@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Index EJS</title>
+
+  <!-- Compiled and minified CSS & editointia-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  </head>
+
+<body>
+
+<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <h2> Blah blah </h2>
+
+  <!-- index.js siel app.local.points & lukaisee points nimen mukaan -->
+
+  <!-- Täs luottu, että lukaisee kaksi json tiedostoa, tässä on tärkeänä määrittää json tiedoston mikä sisäisen aihe on mm. otsikko tai mitä tässä sisältyykään, ja formaatit eli aaltosulku ja jne. vasta sisäisen <li> - asiassa tulostetaan json varsinainen juttu, tokihan sisäisen json tiedostossa on paljon infoa pelkii pälä pälä~~  -->
+  <h2><%= classData.categoryName %></h2> 
+  <b>Class data json file </b>
+  <tr>
+    <ul>
+
+        <% classData.categories.forEach(function(item) { %>
+          <li><%= item.categoryDescription %></li>
+        <% }); %>
+
+      </ul>
+  </tr>
+
+  <br><hr>
+
+  <!-- Lukaisee json tiedoston jokaisen tiedotteen -->
+  <table>
+  <h3><%= classScedule.ScheduleAction %></h3>
+  <b>Class scedule json file </b>
+  <tr>
+        <% classScedule.categoriat.forEach(function(item) { %>
+
+          <li><%= item.ScheduleAction %></li>
+
+        <% }); %>
+        
+  </tr>
+  </table>
+  <br><hr>
+  
+
+</body>
+</html>

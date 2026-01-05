@@ -1,0 +1,8 @@
+{
+  "class":"Using json file",
+
+  "students": ["Michael", "James", "Ada", "Mindy", "Leon", "Cindy", "Daniel", "Paul", "Brian", "Kelly", "Amanda", "Billy", "Angela", "Ida", "Nina"],
+
+  "date": "March 20, 2021"
+
+}
