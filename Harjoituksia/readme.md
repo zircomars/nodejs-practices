@@ -1,0 +1,1 @@
+# yksittäiset javascript harjoituksia 
