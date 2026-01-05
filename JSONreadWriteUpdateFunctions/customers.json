@@ -1,0 +1,20 @@
+{
+  "fullname": {
+    "first" : "Christophen",
+    "last" : "Hill",
+    "nickname" : "Johnny"
+  },
+  "id": 12345,
+  "order_count": 88,
+  "address": "Admin Some Drive",
+  "country": 
+  { 
+    "Country": "Finland",
+    "city": [ "Helsinki", "Espoo" , "Vantaa", "Tampere", "Turku", "Kuopio", "Kouvola", "Hämeenlinna", "Joensuu", "Pori", "Vaasa", "Rovaniemi" ]
+  },
+  "phone": 
+  {
+    "office" : "123-178-2521",
+    "home": "391-334-3606"
+  }
+}
