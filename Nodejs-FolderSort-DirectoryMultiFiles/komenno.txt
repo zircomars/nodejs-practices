@@ -1,0 +1,21 @@
+install ja muu lataus paketit;;
+
+yarn add lowdb
+
+tyhjän kansion luonti;;;;
+mkdir exmaple
+
+ja tiedoston luonti kansiolle mitä sinne sisäll tuleekaan;;;
+touch example/empty.png example/empty.exe example/empty.pdf example.mp3 example/empty.png
+
+aktivoidaan & toiminta kommentoa tälle softalla, shell/terminaalissa;;;
+node index.js
+
+toistaa:
+specify target directory
+
+tämä kuin käynnistää tiedoston kansion nimen mukaan;;
+npm run start -- example
+
+mitä sen jälkeen kuin järjestää kaikki tuhannet tiedostot järjestykseen, eli järjestää niitä tiedostoja omin kukin omaan kansioon. Koska tiedostojen malleja on mm. pdf, png, jpg, exe, docx ja jne. 
+Jos yhteen x-kansion sisällä on paljon tiedostoja, mitä voi olla sekalaista, niin tämä sovellus kuin järjestää tämän x-kansion uudelleen. X-kansion sisälle tulee lisää oma kansiota, että luoo muutaman kansioon erikseen.
