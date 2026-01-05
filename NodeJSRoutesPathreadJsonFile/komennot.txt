@@ -1,0 +1,15 @@
+install paketit npm:stä;;
+
+npm install express
+
+npm install body-parser
+
+npm install nodemon --save-dev
+
+muuta package.json tilassa tämmöinen;;
+server.js jos on oma pääsovellus, tässä käytettään index.js
+
+"main": "server.js",
+"scripts": {
+  "start": "nodemon server.js",
+}
